@@ -118,6 +118,8 @@ if you are using SSH for Git authentication.
 
 #### Provision and boot VM
 
+*Note:* At this point, you can copy your `righthook.io.conf` OpenVPN configuration into the directory created when you cloned the repo.  It will then be shared to the VM's `/home/vagrant` directory.
+
 In a shell, `cd` into the `self-racing-cars-vm-gui` directory that was created when you cloned our Git repo.  Boot the VM by running
 
     vagrant up --provision
