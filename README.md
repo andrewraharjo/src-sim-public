@@ -8,6 +8,8 @@ The challenge is structured like a qualifying session.  Your car will be the onl
 
 The car will start on the start-finish straight with plenty of room to get up to top speed before crossing the line.  You can let the car do as many laps as you like, without restarting, and the best will be counted.  Any excursions off the track or collisions will result in that lap being invalidated.  In the section below on what messages we publish, we tell you how you will know if your lap will be invalidated.
 
+The competition closes noon April 20th.
+
 ## Titles
 
 __Grand Prix:__ goes to the team that completes a lap (start-finish line to start-finish line) in the least time.
@@ -311,6 +313,10 @@ We have provided an example controller in this repo.  The controller uses a set 
 [ROS Services (like our pause, unpause and reset service)](http://wiki.ros.org/Services)
 
 # FAQ
+
+## How is the 40 hours counted?
+
+The 40 hours is counted for however long the instance is up continuously, rounded up to the hour.  So having the simulator up one minute is an hour, having the simulator up 59 minutes is an hour.  Time starts and stops from the [portal](app.righthook.io).
 
 ## I am having trouble getting it to work.
 
