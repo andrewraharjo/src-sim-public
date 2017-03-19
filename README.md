@@ -219,6 +219,9 @@ To start the simulation, send a request to `http://10.8.0.1:8080/launch_src` by 
 curl http://10.8.0.1:8080/launch_src
 ```
 
+*Note:* the first time you send this request on the instance, the simulation may take up to five minutes to start.
+
+
 To stop the simulation, send a request to `http://10.8.0.1:8080/kill` by navigating there in your web browser or running
 
 ```
