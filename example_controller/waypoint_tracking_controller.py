@@ -226,7 +226,7 @@ controller on a loop.
 if __name__ == '__main__':
 
 	# import waypoints, which are in a csv file formatted x, y
-	with open('/mnt/rhio/ros_ws/src/rh_controllers/src/waypoints.xyz', 'rb') as f:
+	with open('./waypoints.xyz', 'rb') as f:
 		reader = csv.reader(f, delimiter=',', quoting=csv.QUOTE_NONNUMERIC)
 		i = 0
 		# make empty arrays for points and edges
